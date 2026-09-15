@@ -1,5 +1,5 @@
 [project]
-name = "fall-26-sdsu-backend"
+name = "app"
 version = "0.1.0"
 description = "Backend for budget buddy."
 readme = "README.md"
@@ -9,11 +9,10 @@ authors = [
 requires-python = ">=3.13"
 dependencies = [
     "fastapi[all]>=0.141.1",
-    "requests>=2.34.2",
 ]
 
 [project.scripts]
-fall-26-sdsu-backend = "fall_26_sdsu_backend:main"
+app = "app:main"
 
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
